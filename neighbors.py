@@ -43,7 +43,7 @@ def neighbors(patt, d):
 
     return neighborhood
 
-neighbors('ATC', 1)
+
 def nCr(n, r):
     topFact = factorial(n)
     bottomFact = factorial(r) * factorial(n - r)
@@ -63,13 +63,15 @@ def getCombinations(strLen, d):
     return sum
 
 
-args = getArgs('1n', 15)
 
 
-neigh2 = neighbors(args[0], args[1])
-
-writeList(neigh2)
-print len(neigh2)
+# args = getArgs('1n', 15)
+#
+#
+# neigh2 = neighbors(args[0], args[1])
+#
+# writeList(neigh2)
+# print len(neigh2)
 
 
 

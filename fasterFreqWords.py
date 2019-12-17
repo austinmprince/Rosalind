@@ -102,7 +102,7 @@ def fasterClumpFinding(s, k, l, t):
                 clumps[j] = 1
 
     for i in range(0, len(s) - l + 1):
-        print i
+        # print i
         # check if there is a kmer in the freq array that has a higher value than t if so
         # add to the clumps array
 

@@ -10,6 +10,8 @@ def revStr(s):
 
     return ''.join(listS)
 
+# returns the reverse compliment of a string
+# ie the other side of the DNA strand
 def retComps(s):
   s = revStr(s)
   strDict = {'A':'T', 'C':'G', 'G':'C', 'T':'A'}
