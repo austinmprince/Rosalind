@@ -1,5 +1,5 @@
-from neighbors import neighbors, iterativeNeighbors
-from patternMatching import hammingDistance
+from chapter1.neighbors import neighbors, iterativeNeighbors
+
 count = 0
 baseString = ''
 numPerms = 0

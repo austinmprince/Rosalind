@@ -1,7 +1,7 @@
-from neighbors import neighbors
-from fasterFreqWords import patternToNum, numToPattern, getFrequencies
-from rosalindfunctions import retComps
+from chapter1.neighbors import neighbors
+from fasterFreqWords import patternToNum, numToPattern
 from helperFileFunctions import writeList
+from rosalindfunctions import retComps
 
 
 #BA1J this works

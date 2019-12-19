@@ -1,4 +1,4 @@
-from patternMatching import hammingDistance
+from chapter1.patternMatching import hammingDistance
 from helperFileFunctions import *
 from math import factorial
 
